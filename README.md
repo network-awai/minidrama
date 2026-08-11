@@ -12,9 +12,11 @@ ADR-2607071000/2607071100 経路）。
 actor identity: `minidrama.aozora.app`（projected、`aozora.appview.creator-actors`
 registry — 鍵付き化は follow-up）。
 
-実行 actor の canonical repository は `network-awai/minidrama`。これは AWAI が運営する
+実行 actor の canonical repository は `network-awai/actor-minidrama`。`actor-` role prefix
+により governed executable actor であることを repo 名でも明示する。これは AWAI が運営する
 Aozora creator surface であり、企画・脚本・絵コンテの proposal/governance 境界を持つ。
-既存の `minidrama.aozora.app` identity と旧 GitHub URL は compatibility identity として維持する。
+既存の `minidrama.aozora.app` identity と `network-awai/minidrama` を含む旧 GitHub URL は
+compatibility identity / redirect として維持する。
 
 ## Overview
 

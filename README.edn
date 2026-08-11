@@ -1,6 +1,7 @@
-{:repo/id "network-awai/minidrama"
+{:repo/id "network-awai/actor-minidrama"
  :repo/plane :role
  :repo/role :aozora-drama-creator
  :repo/boundary {:consumer-surface "network-awai/app-aozora"
                  :output :governed-episode-plan
-                 :compatibility-repository "etzhayyim/com-etzhayyim-minidrama"}}
+                 :compatibility-repositories ["network-awai/minidrama"
+                                              "etzhayyim/com-etzhayyim-minidrama"]}}

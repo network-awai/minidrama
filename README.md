@@ -1,4 +1,4 @@
-# com-etzhayyim-minidrama (ミニドラマ座)
+# minidrama (ミニドラマ座)
 
 縦型（720x1280）60〜90 秒ミニドラマの制作 actor。企画 → 脚本 → 絵コンテ
 （shot list）までを DramaLLM が *proposal* として提案し、**DramaGovernor が
@@ -11,6 +11,10 @@ ADR-2607071000/2607071100 経路）。
 `90-docs/adr/2607071300-aozora-creator-actors-minidrama.md`（Part 2）。
 actor identity: `minidrama.aozora.app`（projected、`aozora.appview.creator-actors`
 registry — 鍵付き化は follow-up）。
+
+実行 actor の canonical repository は `network-awai/minidrama`。これは AWAI が運営する
+Aozora creator surface であり、企画・脚本・絵コンテの proposal/governance 境界を持つ。
+既存の `minidrama.aozora.app` identity と旧 GitHub URL は compatibility identity として維持する。
 
 ## Overview
 
